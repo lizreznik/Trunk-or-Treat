@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(233, 146, 233);
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.col {
+    background-color: rgb(97, 14, 97);
+    color: white;
+    /* Optional: change text color for contrast */
+    padding: 20px;
+    /* Optional: add some padding */
+    border: 2px solid orange;
+
+}
+
+.col-md-auto {
+    background-color: rgb(97, 14, 97);
+    color: white;
+    /* Optional: change text color for contrast */
+    padding: 20px;
+    /* Optional: add some padding */
+    border: 2px solid orange;
+}
