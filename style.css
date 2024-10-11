@@ -17,21 +17,24 @@ p {
     text-align: center;
 }
 
-.col {
-    background-color: rgb(97, 14, 97);
+.colLiz {
     color: white;
-    /* Optional: change text color for contrast */
     padding: 20px;
-    /* Optional: add some padding */
     border: 2px solid orange;
 
 }
 
 .col-md-auto {
-    background-color: rgb(97, 14, 97);
     color: white;
-    /* Optional: change text color for contrast */
     padding: 20px;
-    /* Optional: add some padding */
     border: 2px solid orange;
+}
+
+#picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 10px;
 }
