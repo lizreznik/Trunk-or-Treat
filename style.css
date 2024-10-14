@@ -5,11 +5,18 @@ body {
 h1 {
     color: orange;
     text-align: center;
+    font-family: "shlop-shloppy", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 60px;
 }
 
 h2 {
     color: rgb(233, 146, 233);
     text-align: center;
+    font-family: "cc-incy-wincy-spider-web", sans-serif;
+font-weight: 700;
+font-style: normal;
 }
 
 p {
@@ -36,5 +43,7 @@ p {
     display: block;
     border: 2px solid white;
     border-radius: 15px;
-    margin: 10px;
+    margin: 15px;
+    box-shadow: 0 0 10px 2px rgba(255, 0, 255, 0.5);
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
 }
