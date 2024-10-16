@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 $(document).ready(function () {
     $('#picture img').each(function () {
@@ -19,7 +18,6 @@ $(document).ready(function () {
         $(this).next('.event-details').slideToggle(); // Toggle the next details
     });
 });
-=======
 $(document).ready(function() {
     $('#picture img').each(function() {
       var description = $(this).data('description'); 
@@ -34,4 +32,3 @@ $(document).ready(function() {
         $('.hiddenContent').toggle();
       });
   });
->>>>>>> 595e1201088ef82452dfb98e5a708a7bae3a0dd0
