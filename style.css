@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    font-family: "shlop-shloppy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+h2 {
+    color: rgb(233, 146, 233);
+    text-align: center;
+    font-family: "cc-incy-wincy-spider-web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.colLiz {
+    color: white;
+    padding: 20px;
+    border: 2px solid orange;
+
+}
+
+.col-md-auto {
+    color: white;
+    padding: 20px;
+    border: 2px solid orange;
+}
+
+#picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 15px;
+    box-shadow: 0 0 10px 2px rgba(255, 0, 255, 0.5);
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+    color: white;
+}
+
+h3 {
+    text-align: center;
+}
+
+.description {
+    display: none;
+    /* Initially hidden */
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    z-index: 1000;
+    /* Ensure it appears above other elements */
+}
+
+.container {
+    position: relative;
+    /* Position context for absolute positioning of description */
+    display: inline-block;
+    /* To wrap around images */
+    margin: 10px;
+}
+
+.event-details {
+    display: none;
+    /* Initially hidden */
+    margin-top: 10px;
+}
+
+.event-heading {
+    cursor: pointer;
+    /* Indicate clickable */
+    color: white;
+}
+
+.hiddenContent {
+    display: none;
+}
+
+footer {
+    margin: 25px;
+}
+
+.test {
+    margin-right: 15px;
+}
+
+@media(max-wight:762px) {}
